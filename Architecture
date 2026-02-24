@@ -1,9 +1,21 @@
-Kali (Host / Attacker)
-
-Ubuntu (Wazuh Manager)
-
-OpenSearch
-
-Dashboard
-
-Windows 
+Attacker (Kali)
+     ↓
+Target Windows
+     ↓
+Sysmon Logs
+     ↓
+Wazuh Agent
+     ↓
+Wazuh Manager
+     ↓
+Rule Engine (XML Rules)
+     ↓
+MITRE Mapping
+     ↓
+Alert Created
+     ↓
+Active Response Trigger
+     ↓
+Firewall IP Ban
+     ↓
+Dashboard Visualization
